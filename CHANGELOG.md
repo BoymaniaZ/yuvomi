@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.81.2] - 2026-10-28
+
 ### Security
 - **Web Push delivery no longer reaches the server's own network through a malformed address**
   (completes the 2.81.1 fix). The push library reads a subscription address with an older parser
