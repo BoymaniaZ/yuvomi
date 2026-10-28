@@ -586,10 +586,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   to eight characters as an account currency, and a code like "XYZ1" stopped the whole budget page
   from rendering for everyone in the household. Accounts now take only the supported ISO 4217
   codes, and the app shows an unusable stored code in the household currency instead of failing.
+
+## [2.81.2] - 2026-10-28
+
+### Security
+- **Web Push delivery no longer reaches the server's own network through a malformed address**
+  (completes the 2.81.1 fix). The push library reads a subscription address with an older parser
+  than the check before it, and for some unusual characters in the host the two disagreed, so a
+  crafted address could pass the check and still be sent to an internal address. A push address
+  now has to be a plain host name made of letters, digits, hyphens and dots, as every push service
+  hands out, and both parsers have to read the same host. A stored subscription with such an
+  address is removed on its next delivery, like the others.
+
+## [2.81.1] - 2026-10-28
+
+### Security
 - **The Docker image runs on Node.js 24.22.1, which fixes CVE-2026-111497** (#2286). The Brotli
   decoder built into Node.js could write past its buffer on a crafted compressed stream, which can
   crash the server or, in the worst case, run code. The image was pinned to an earlier Node.js 24
   release that does not have the fix.
+- **Web Push delivery now goes through the SSRF guard and has a time limit.** A push subscription
+  is only accepted for a public `https` address, as every push service hands out, and delivery
+  connects through the same check at socket lookup that the other outbound integrations use, so a
+  subscription can no longer make the server connect into its own network. Existing subscriptions
+  with such an address are removed on the next delivery, like an expired one, and logged with their
+  host only. Each delivery now gives up after 10 seconds, so an unresponsive push target no longer
+  holds up reminders.
 
 ## [2.81.0] - 2026-10-25
 
