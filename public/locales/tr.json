@@ -403,6 +403,7 @@
         "todayUntil": "en geç {{time}}",
         "todayMore": "+{{count}} tane daha bugün",
         "todayLess": "Daha az göster",
+        "todayShowDay": "Tüm günü göster",
         "todayMore_one": "+{{count}} tane daha bugün",
         "todayOverdueCount": "{{count}} gecikmiş",
         "todayOverdueCount_one": "{{count}} gecikmiş",
@@ -426,7 +427,17 @@
         "nutritionEntries_one": "Bugün {{count}} kayıt",
         "weatherUnavailable": "Hava durumu şu anda kullanılamıyor",
         "wallScreensaverNone": "Ekran koruyucu kullanılamıyor.",
-        "wallScreensaverStart": "Ekran koruyucu"
+        "wallScreensaverStart": "Ekran koruyucu",
+        "todaySummaryEventsAhead": "{{count}} etkinlik kaldı",
+        "todaySummaryEventsAhead_one": "{{count}} etkinlik kaldı",
+        "todaySummaryOverdue": "{{count}} gecikmiş görev",
+        "todaySummaryOverdue_one": "{{count}} gecikmiş görev",
+        "todayTimelineLabel": "Günün akışı",
+        "todayTimelineEveryone": "Herkes",
+        "todayTimelinePast": "bitti",
+        "todayTimelineRunning": "sürüyor",
+        "todayTimelineNext": "sıradaki",
+        "todayAlsoTitle": "Bugün ayrıca"
     },
     "tasks": {
         "resetOrder": "Otomatik sırala",

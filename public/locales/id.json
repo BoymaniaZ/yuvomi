@@ -421,6 +421,7 @@
         "todayUntil": "sebelum {{time}}",
         "todayMore": "+{{count}} lagi hari ini",
         "todayLess": "Tampilkan lebih sedikit",
+        "todayShowDay": "Tampilkan sepanjang hari",
         "todayMore_one": "+{{count}} lagi hari ini",
         "todayOverdueCount": "{{count}} terlambat",
         "todayOverdueCount_one": "{{count}} terlambat",
@@ -444,7 +445,17 @@
         "nutritionEntries_one": "{{count}} catatan hari ini",
         "weatherUnavailable": "Cuaca sedang tidak tersedia",
         "wallScreensaverNone": "Screensaver tidak tersedia.",
-        "wallScreensaverStart": "Screensaver"
+        "wallScreensaverStart": "Screensaver",
+        "todaySummaryEventsAhead": "{{count}} acara lagi",
+        "todaySummaryEventsAhead_one": "{{count}} acara lagi",
+        "todaySummaryOverdue": "{{count}} tugas terlambat",
+        "todaySummaryOverdue_one": "{{count}} tugas terlambat",
+        "todayTimelineLabel": "Linimasa hari ini",
+        "todayTimelineEveryone": "Semua",
+        "todayTimelinePast": "selesai",
+        "todayTimelineRunning": "sedang berlangsung",
+        "todayTimelineNext": "berikutnya",
+        "todayAlsoTitle": "Juga hari ini"
     },
     "tasks": {
         "resetOrder": "Urutkan otomatis",

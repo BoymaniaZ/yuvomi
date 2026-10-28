@@ -421,6 +421,7 @@
         "todayUntil": "bis {{time}}",
         "todayMore": "+{{count}} weitere heute",
         "todayLess": "Weniger anzeigen",
+        "todayShowDay": "Ganzen Tag zeigen",
         "todayMore_one": "+{{count}} weiterer heute",
         "todayOverdueCount": "{{count}} überfällig",
         "todayOverdueCount_one": "{{count}} überfällig",
@@ -444,7 +445,17 @@
         "nutritionEntries_one": "{{count}} Eintrag heute",
         "weatherUnavailable": "Wetter gerade nicht verfügbar",
         "wallScreensaverNone": "Bildschirmschoner nicht verfügbar.",
-        "wallScreensaverStart": "Bildschirmschoner"
+        "wallScreensaverStart": "Bildschirmschoner",
+        "todaySummaryEventsAhead": "noch {{count}} Termine",
+        "todaySummaryEventsAhead_one": "noch {{count}} Termin",
+        "todaySummaryOverdue": "{{count}} Aufgaben überfällig",
+        "todaySummaryOverdue_one": "{{count}} Aufgabe überfällig",
+        "todayTimelineLabel": "Tagesverlauf",
+        "todayTimelineEveryone": "Alle",
+        "todayTimelinePast": "vorbei",
+        "todayTimelineRunning": "läuft gerade",
+        "todayTimelineNext": "als Nächstes",
+        "todayAlsoTitle": "Außerdem heute"
     },
     "tasks": {
         "resetOrder": "Automatisch sortieren",

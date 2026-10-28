@@ -403,6 +403,7 @@
         "todayUntil": "voor {{time}}",
         "todayMore": "+{{count}} meer vandaag",
         "todayLess": "Toon minder",
+        "todayShowDay": "Toon de hele dag",
         "todayMore_one": "+{{count}} meer vandaag",
         "todayOverdueCount": "{{count}} achterstallig",
         "todayOverdueCount_one": "{{count}} achterstallig",
@@ -426,7 +427,17 @@
         "nutritionEntries_one": "{{count}} item vandaag",
         "weatherUnavailable": "Weer momenteel niet beschikbaar",
         "wallScreensaverNone": "Schermbeveiliging niet beschikbaar.",
-        "wallScreensaverStart": "Schermbeveiliging"
+        "wallScreensaverStart": "Schermbeveiliging",
+        "todaySummaryEventsAhead": "nog {{count}} evenementen",
+        "todaySummaryEventsAhead_one": "nog {{count}} evenement",
+        "todaySummaryOverdue": "{{count}} taken verlopen",
+        "todaySummaryOverdue_one": "{{count}} taak verlopen",
+        "todayTimelineLabel": "Verloop van de dag",
+        "todayTimelineEveryone": "Iedereen",
+        "todayTimelinePast": "afgelopen",
+        "todayTimelineRunning": "bezig",
+        "todayTimelineNext": "hierna",
+        "todayAlsoTitle": "Verder vandaag"
     },
     "tasks": {
         "resetOrder": "Automatisch sorteren",

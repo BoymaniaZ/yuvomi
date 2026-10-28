@@ -403,6 +403,7 @@
         "todayUntil": "{{time}}-ig",
         "todayMore": "+{{count}} további ma",
         "todayLess": "Kevesebb megjelenítése",
+        "todayShowDay": "Az egész nap megjelenítése",
         "todayMore_one": "+{{count}} további ma",
         "todayOverdueCount": "{{count}} lejárt",
         "todayOverdueCount_one": "{{count}} lejárt",
@@ -426,7 +427,17 @@
         "nutritionEntries_one": "Ma {{count}} bejegyzés",
         "weatherUnavailable": "Az időjárás jelenleg nem érhető el",
         "wallScreensaverNone": "A képernyővédő nem érhető el.",
-        "wallScreensaverStart": "Képernyővédő"
+        "wallScreensaverStart": "Képernyővédő",
+        "todaySummaryEventsAhead": "még {{count}} esemény",
+        "todaySummaryEventsAhead_one": "még {{count}} esemény",
+        "todaySummaryOverdue": "{{count}} lejárt feladat",
+        "todaySummaryOverdue_one": "{{count}} lejárt feladat",
+        "todayTimelineLabel": "A nap menete",
+        "todayTimelineEveryone": "Mindenki",
+        "todayTimelinePast": "véget ért",
+        "todayTimelineRunning": "folyamatban",
+        "todayTimelineNext": "következik",
+        "todayAlsoTitle": "Ma még"
     },
     "tasks": {
         "resetOrder": "Automatikus rendezés",
