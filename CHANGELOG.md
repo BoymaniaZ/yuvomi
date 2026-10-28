@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.82.0] - 2026-10-28
+
 ### Added
 - **Today at a glance shows the shape of the day.** The sheet is one card now: the overview's seal,
   the title and the day in one line ("6 events left · 1 task overdue"), then a timeline with a lane for the
