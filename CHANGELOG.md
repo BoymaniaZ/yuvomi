@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.81.1] - 2026-10-28
+
 ### Security
 - **The Docker image runs on Node.js 24.22.1, which fixes CVE-2026-111497** (#2286). The Brotli
   decoder built into Node.js could write past its buffer on a crafted compressed stream, which can
